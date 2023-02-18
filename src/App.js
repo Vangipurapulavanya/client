@@ -4,7 +4,7 @@ import Navbar from "./Components/Navbar/Navbar";
 import Skills from "./Components/Skills/Skills";
 import Projects from "./Components/Projects/Projects";
 import AboutMe from "./Components/AboutMe/AboutMe";
-
+import Footer from "./Components/Footer/Footer";
 import "./App.scss";
 
 function App() {
@@ -16,6 +16,8 @@ function App() {
       <Skills />
       <Projects />
       <Contact />
+      <Footer/>
+      
     </div>
   );
 }
